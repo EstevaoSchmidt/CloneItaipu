@@ -33,6 +33,15 @@ body {
 
 }
 
+.titulo-video {
+
+    margin-top: 10px;
+    color: #2d2d2d;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
 /*CABECALHO*/
 
 header {
@@ -195,7 +204,8 @@ header .menu .navegacao .idiomas img {
 .nosso-blog{
 
     background-color: #f9f9f9;
-    padding: 50px 0 50px 0;
+    padding-top: 100px;
+    padding-bottom: 150px;
 
 }
 
@@ -340,3 +350,39 @@ header .menu .navegacao .idiomas img {
 
 }
 
+.videos {
+
+    background-color: #f9f9f9;
+
+}
+
+.videos .conteiner {
+
+    display: flex;
+    gap: 20px;
+    height: 256px;
+    
+
+}
+
+.videos .video img {
+
+    width: 100%;
+    height: 255px;
+
+}
+
+
+.videos .video{
+
+    height: 191px;
+    overflow: hidden;
+    border-radius: 14px;
+
+}
+
+.videos .titulo-secao {
+
+    margin-bottom: 35px;
+
+}
